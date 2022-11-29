@@ -1,0 +1,29 @@
+.option{
+    background-color: #3c0e70;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transtion: 0.4s;
+}
+
+.option:hover{
+    opacity: 1;
+}
+
+/* utilizando seletor mais forte pois ele vem de outro 
+css que eu utilizei id para dar um mb */
+#options-container .option p {
+    margin-bottom: 0;
+}
+
+.correct {
+    background-color: #0bfc03;
+    font-weight: bold;
+}
+
+.wrong {
+    opacity: 0.4;
+    background-color: #3c0e70;
+}
